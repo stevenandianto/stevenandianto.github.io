@@ -46,3 +46,22 @@ div:nth-child(4) {
   background: aquamarine;
 }
 
+#hello-container {
+  /* background: linear-gradient(180deg, #000000, #0f0f0f, #181818, #212121, #2a2a2a, #333333, #3c3c3c); */
+  background-image: url(../images/gradient-background.png);
+  background-size: cover;
+}
+
+#hello {
+  font-size: 240px;
+  font-family: 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
+  font-weight: 900;
+  color: #848482;
+  letter-spacing: 4px;
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+
+.fade-out {
+  opacity: 0 !important;
+}
