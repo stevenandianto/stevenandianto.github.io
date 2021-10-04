@@ -48,7 +48,7 @@ div:nth-child(4) {
 
 #hello-container {
   /* background: linear-gradient(180deg, #000000, #0f0f0f, #181818, #212121, #2a2a2a, #333333, #3c3c3c); */
-  background-image: url(../images/gradient-background.png);
+  background-image: url(../images/black-background.jpg);
   background-size: cover;
 }
 
