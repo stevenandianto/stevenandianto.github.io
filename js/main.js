@@ -1,14 +1,5 @@
-const parallax = document.getElementById("parallax");
-
-window.addEventListener("scroll", function()
-{
-    let offset = window.pageYOffset;
-    parallax.style.backgroundPositionY = offset * 0.77 + "px";
-})
-
 // All hello languages
 const helloLanguages = [
-    "hello",
     "halo",
     "안녕하세요",
     "你好",
@@ -16,7 +7,8 @@ const helloLanguages = [
     "สวัสดี",
     "hola",
     "bonjour",
-    "Привет"
+    "Привет",
+    "hello"
 ];
 
 var counter = 0;
