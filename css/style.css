@@ -22,17 +22,36 @@ h2 {
 }
 
 .photo-container {
-  height: inherit;
-  align-items: flex-end;
+  text-align: center;
+  display: inline-block;
+  align-self: flex-end;
 }
 
 .photo {
   z-index: 999;
-  width: 60vw;
+  width: 90%;
 }
 
 .name {
   color: #FFFFFF;
-  font-size: 5vw;
+  font-size: 64px;
   font-weight: bold;
+  display: inline-block;
+  align-self: flex-end;
 }
+
+.hello {
+  color: #FFFFFF;
+  font-size: 72px;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
+  display: inline-block;
+  align-self: flex-start;
+  text-align: right;
+  padding-top: 100px;
+  transition: opacity 1s;
+}
+
+.fade-out {
+  opacity: 0 !important;
+} 

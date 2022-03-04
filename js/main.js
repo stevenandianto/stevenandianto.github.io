@@ -1,14 +1,15 @@
 // All hello languages
 const helloLanguages = [
-    "halo",
-    "안녕하세요",
-    "你好",
-    "こんにちは",
-    "สวัสดี",
-    "hola",
-    "bonjour",
-    "Привет",
-    "hello"
+    "hello,",
+    "halo,",
+    "안녕하세요,",
+    "你好,",
+    "こんにちは,",
+    "สวัสดี,",
+    "hola,",
+    "bonjour,",
+    "Привет,",
+    "hi,"
 ];
 
 var counter = 0;
