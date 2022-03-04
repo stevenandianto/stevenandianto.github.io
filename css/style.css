@@ -37,7 +37,16 @@ h2 {
   font-size: 64px;
   font-weight: bold;
   display: inline-block;
-  align-self: flex-end;
+  align-self: center;
+  line-height: 100%;
+  margin-top: 300px;
+  animation: marquee 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes marquee {
+  from {transform: translateX(100%); }
+  to {transform: translateX(0%); }
 }
 
 .hello {
@@ -47,7 +56,7 @@ h2 {
   font-family: 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
   display: inline-block;
   align-self: flex-start;
-  text-align: right;
+  text-align: center;
   padding-top: 100px;
   transition: opacity 1s;
 }
